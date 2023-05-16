@@ -23,7 +23,7 @@ void buy(int number) {
             costx2 *= 2;
         }
         else {
-            cout << "ó òåáÿ íåäîñòàòî÷íî äåíåã!" << endl;
+            cout << "Ã³ Ã²Ã¥Ã¡Ã¿ Ã­Ã¥Ã¤Ã®Ã±Ã²Ã Ã²Ã®Ã·Ã­Ã® Ã¤Ã¥Ã­Ã¥Ã£!" << endl;
         }
         break;
     case 2:
@@ -33,7 +33,7 @@ void buy(int number) {
             costup *= 2;
         }
         else {
-            cout << "ó òåáÿ íåäîñòàòî÷íî äåíåã!" << endl;
+            cout << "Ã³ Ã²Ã¥Ã¡Ã¿ Ã­Ã¥Ã¤Ã®Ã±Ã²Ã Ã²Ã®Ã·Ã­Ã® Ã¤Ã¥Ã­Ã¥Ã£!" << endl;
         }
         break;
     case 3:
@@ -42,7 +42,7 @@ void buy(int number) {
             score -= 100;
         }
         else {
-            cout << "ó òåáÿ íåäîñòàòî÷íî äåíåã!" << endl;
+            cout << "Ã³ Ã²Ã¥Ã¡Ã¿ Ã­Ã¥Ã¤Ã®Ã±Ã²Ã Ã²Ã®Ã·Ã­Ã® Ã¤Ã¥Ã­Ã¥Ã£!" << endl;
         }
     }
 }
@@ -52,13 +52,13 @@ void shop() {
     bool inShop = true;
     while (inShop) {
         system("cls");
-        cout << "(èãðà íà ïàóçå - äåíüãè íå çàðàáàòûâàþòñÿ)" << endl;
-        cout << "òâîè äåíüãè: " << score << endl;
-        cout << "÷òî õî÷åøü êóïèòü?" << endl;
-        cout << "1 - Óäâîåíèå ïîëó÷àåìûõ î÷êîâ çà êëèê (ñòîèìîñòü: " << costx2 << ")" << endl;
-        cout << "2 - Ïðèáàâêó ê ïîëó÷àåìûì î÷êàì çà êëèê íà 0.2 (ñòîèìîñòü: " << costup << ")" << endl;
-        if (enableautoclick == false) { cout << "3 - àâòîêëèê 1 êëèê â ñåêóíäó (ñòîèìîñòü: " << costac << ")" << endl; }
-        cout << "x - Âûõîä èç ìàãàçèíà" << endl;
+        cout << "(Ã¨Ã£Ã°Ã  Ã­Ã  Ã¯Ã Ã³Ã§Ã¥ - Ã¤Ã¥Ã­Ã¼Ã£Ã¨ Ã­Ã¥ Ã§Ã Ã°Ã Ã¡Ã Ã²Ã»Ã¢Ã Ã¾Ã²Ã±Ã¿)" << endl;
+        cout << "Ã²Ã¢Ã®Ã¨ Ã¤Ã¥Ã­Ã¼Ã£Ã¨: " << score << endl;
+        cout << "Ã·Ã²Ã® ÃµÃ®Ã·Ã¥Ã¸Ã¼ ÃªÃ³Ã¯Ã¨Ã²Ã¼?" << endl;
+        cout << "1 - Ã“Ã¤Ã¢Ã®Ã¥Ã­Ã¨Ã¥ Ã¯Ã®Ã«Ã³Ã·Ã Ã¥Ã¬Ã»Ãµ Ã®Ã·ÃªÃ®Ã¢ Ã§Ã  ÃªÃ«Ã¨Ãª (Ã±Ã²Ã®Ã¨Ã¬Ã®Ã±Ã²Ã¼: " << costx2 << ")" << endl;
+        cout << "2 - ÃÃ°Ã¨Ã¡Ã Ã¢ÃªÃ³ Ãª Ã¯Ã®Ã«Ã³Ã·Ã Ã¥Ã¬Ã»Ã¬ Ã®Ã·ÃªÃ Ã¬ Ã§Ã  ÃªÃ«Ã¨Ãª Ã­Ã  0.2 (Ã±Ã²Ã®Ã¨Ã¬Ã®Ã±Ã²Ã¼: " << costup << ")" << endl;
+        if (enableautoclick == false) { cout << "3 - Ã Ã¢Ã²Ã®ÃªÃ«Ã¨Ãª 1 ÃªÃ«Ã¨Ãª Ã¢ Ã±Ã¥ÃªÃ³Ã­Ã¤Ã³ (Ã±Ã²Ã®Ã¨Ã¬Ã®Ã±Ã²Ã¼: " << costac << ")" << endl; }
+        cout << "x - Ã‚Ã»ÃµÃ®Ã¤ Ã¨Ã§ Ã¬Ã Ã£Ã Ã§Ã¨Ã­Ã " << endl;
 
         key = _getch();
         switch (key) {
@@ -75,7 +75,7 @@ void shop() {
             inShop = false;
             break;
         default:
-            cout << "íåò òàêîé ïîçèöèè!" << endl;
+            cout << "Ã­Ã¥Ã² Ã²Ã ÃªÃ®Ã© Ã¯Ã®Ã§Ã¨Ã¶Ã¨Ã¨!" << endl;
         }
     }
 }
@@ -89,27 +89,28 @@ void print() {
     if (enableautoclick == true) {
         score++;
     }
-    cout << "áàëàíñ: " << score << endl;
-    cout << Myvoid << "óïðàâëåíèå:" << endl;
-    cout << Myvoid << "ïðîáåë: êëèê" << endl;
-    cout << Myvoid << "s: ìàãàçèí óëó÷øåíèé" << endl;
-    cout << Myvoid << "x: ñîõðàíèòü è âûéòè" << endl;
+    cout << "Ã¡Ã Ã«Ã Ã­Ã±: " << score << endl;
+    cout << Myvoid << "Ã³Ã¯Ã°Ã Ã¢Ã«Ã¥Ã­Ã¨Ã¥:" << endl;
+    cout << Myvoid << "Ã¯Ã°Ã®Ã¡Ã¥Ã«: ÃªÃ«Ã¨Ãª" << endl;
+    cout << Myvoid << "s: Ã¬Ã Ã£Ã Ã§Ã¨Ã­ Ã³Ã«Ã³Ã·Ã¸Ã¥Ã­Ã¨Ã©" << endl;
+    cout << Myvoid << "x: Ã±Ã®ÃµÃ°Ã Ã­Ã¨Ã²Ã¼ Ã¨ Ã¢Ã»Ã©Ã²Ã¨" << endl;
     Sleep(itime);
     system("cls");
 }
 
 int main() {
+    system("chcp 1251");
     setlocale(LC_ALL, "Russian");
     ifstream inputFile("data.txt");
     if (!inputFile.is_open()) {
-        cout << "Îøèáêà îòêðûòèÿ ôàéëà!" << endl;
+        cout << "ÃŽÃ¸Ã¨Ã¡ÃªÃ  Ã®Ã²ÃªÃ°Ã»Ã²Ã¨Ã¿ Ã´Ã Ã©Ã«Ã !" << endl;
         return 1;
     }
 
     inputFile >> score >> scoreplus >> costx2 >> costup;
     inputFile.close();
 
-    cout << "Íàæìèòå ëþáóþ êëàâèøó ÷òîáû íà÷àòü" << endl;
+    cout << "ÃÃ Ã¦Ã¬Ã¨Ã²Ã¥ Ã«Ã¾Ã¡Ã³Ã¾ ÃªÃ«Ã Ã¢Ã¨Ã¸Ã³ Ã·Ã²Ã®Ã¡Ã» Ã­Ã Ã·Ã Ã²Ã¼" << endl;
     char knop = _getch();
 
     while (game) {
@@ -131,7 +132,7 @@ int main() {
                 ofstream outputFile("data.txt");
 
                 if (!outputFile.is_open()) {
-                    cout << "Îøèáêà îòêðûòèÿ ôàéëà!" << endl;
+                    cout << "ÃŽÃ¸Ã¨Ã¡ÃªÃ  Ã®Ã²ÃªÃ°Ã»Ã²Ã¨Ã¿ Ã´Ã Ã©Ã«Ã !" << endl;
                     return 1;
                 }
 
