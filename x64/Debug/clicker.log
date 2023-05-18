@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\Users\Gabitov\source\repos\clicker\clicker\Source.cpp(32,29): warning C4305: +=: усечение из "double" в "float"
+  clicker.vcxproj -> C:\Users\Gabitov\source\repos\clicker\x64\Debug\clicker.exe
